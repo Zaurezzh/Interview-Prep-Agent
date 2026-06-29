@@ -92,7 +92,7 @@ To run locally:
 
 ```bash
 pip install google-adk google-genai mcp ddgs pypdf nest_asyncio
-export GOOGLE_API_KEY="your_key"        # do NOT commit this
+export GOOGLE_API_KEY="your_key"      
 export GOOGLE_GENAI_USE_VERTEXAI=FALSE
 jupyter notebook interview_prep_agent.ipynb
 ```
